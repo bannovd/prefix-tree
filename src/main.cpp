@@ -6,7 +6,7 @@
 
 
 static void prompt() {
-    std::cout << "Next input please:\n > ";
+    std::cout << "Next input please:\n>> ";
 }
 
 int main() {
@@ -23,6 +23,7 @@ int main() {
         if (auto subtrie (trie.Subtrie(std::istream_iterator<std::string>{iss}, {})); subtrie) {
             std::cout << "Suggestions:" << std::endl;
             subtrie->get().Print();
+            prompt();
         } else {
             std::cout << "No suggestions found." << std::endl;
             prompt();
