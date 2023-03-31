@@ -1,1 +1,1 @@
-# Simple prefix trшe for search suggestions
+# Simple prefix trie for search suggestions
