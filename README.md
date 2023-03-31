@@ -1,1 +1,1 @@
-# prefix-tree
+# Simple prefix tree for search suggestions
